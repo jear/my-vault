@@ -1,5 +1,5 @@
 # my-vault
-
+```
 helm repo add hashicorp https://helm.releases.hashicorp.com
 
 k create ns vault
@@ -32,3 +32,4 @@ reconstruct the root key, Vault will remain permanently sealed!
 
 It is possible to generate new unseal keys, provided you have a quorum of
 existing unseal keys shares. See "vault operator rekey" for more information.
+```
